@@ -1,0 +1,77 @@
+.luckiestguy-regular {
+    font-family: "LuckiestGuy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-thin {
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.opensans-light {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.opensans-regular {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opensans-medium {
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.opensans-bold {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.opensans-black {
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.opensans-thin-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.opensans-light-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.opensans-regular-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.opensans-medium-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.opensans-bold-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.opensans-black-italic {
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}
