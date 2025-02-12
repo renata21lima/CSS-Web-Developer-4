@@ -6,7 +6,7 @@
     --background-dark: #23272a;     
     --text-dark: #23272a;   
     
-    --font-family-h2: ".luckiestguy-regular", sans-serif;
-    --font-family-h2: ".opensans-bold", sans-serif;
-    --font-family-p: ".opensans-regular", sans-serif;
+    --font-family-h1: "Luckiest Guy", sans-serif;
+    --font-family-h2: "Open Sans", sans-serif;
+    --font-family-p: "Open Sans", sans-serif;
 }
