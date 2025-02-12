@@ -2,4 +2,70 @@
 
 h1{
     font-family: var(--font-family-h1);
+    font-size: 56px;
+    color: white;
+}
+
+h2{
+    font-family: var(--font-family-h2);
+    font-size: 40px;
+}
+
+p{
+    font-family: var(--font-family-p);
+    font-size: 16px;
+}
+
+header{
+    background-image: url(../assets/img/header-background.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 28.6875rem;
+
+    padding: 95px 260px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    gap: 24px;
+}
+
+header > p {
+    color: white;
+}
+
+.btn-white{
+    width: 205px;
+    height: 44px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-dark{
+    background-color: var(--background-dark);
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    padding: 11px 16px;
+    text-align: center;
+    width: 281px;
+    height: 44px;
+}
+
+a{
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
