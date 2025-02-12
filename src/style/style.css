@@ -17,25 +17,31 @@ p{
 }
 
 header{
-    background-image: url(../assets/img/header-background.png.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+    background: url(../assets/img/header-background.png.png) no-repeat center / cover;
     width: 100%;
-    height: 28.6875rem;
-
-    padding: 95px 260px;
-
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    text-align: center;
-    gap: 24px;
+    height: 459px;
 }
 
-header > p {
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 95px 260px;
+}
+
+.header > p, h1{
     color: white;
+    text-align: center;
+    width: 757px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .btn-white{
@@ -63,9 +69,303 @@ a{
     color: white;
 }
 
-.content{
+main{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+img[alt="Imagem ilustrativa"]{
+    width: 607px;
+    height: 394px;
+}
+
+img[alt="Imagem ilustrativa-Maior"]{
+    width: 784px;
+    height: 508px;
+}
+
+img[alt="Logo Com Nome"]{
+    width: 230px;
+    height: 63px;
+}
+
+.section-one, .section-two, .section-three{
+    width: 100%;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one-div, .section-two-div, .section-three-div{
+    width: 971px;
+    height: 394px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
+
+
+.text-one, .text-two, .text-three, .text-four{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: start;
+}
+
+.section-two, .section-four{
+    background-color: var(--background-section);
+}
+
+.section-four{
+    width: 100%;
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-four > h2{
+    text-align: center;
+    font-family: var(--font-family-h1);
+    color: var(--background-dark);
+}
+
+.text-four > p{
+    text-align: center;
+    width: 802px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 54.47px;
+}
+
+p{
+    line-height: 21.79px;
+}
+
+
+footer{
+    background-color: var(--background-dark);
+    width: 100%;
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 480px) { 
+    body{
+        overflow-x: hidden; 
+        max-width: 480px;
+    }
+
+    header{
+        width: 100vh;
+        height: 505px;
+    }
+
+    .header{
+        padding: 70px 23px;
+        align-items: start;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .header > p{
+        line-height: 21.79px;
+        text-align: left;
+        width: 381px;
+        height: 132px;
+        word-wrap: break-word;
+    }
+
+    h1{
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .buttons{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .btn-white,.btn-dark{
+        width: 381px;
+        height: 54px;
+    }
+    
+    img[alt="Imagem ilustrativa"]{
+        width: 379px;
+        height: 252px;
+    }
+
+    img[alt="Imagem ilustrativa-Maior"]{
+        width: 379px;
+        height: 252px;
+    }
+    
+    img[alt="Logo Com Nome"]{
+        width: 162px;
+        height: 45px;
+    }
+
+    .section-one{
+        height: 573px;
+    }
+    .section-two, .section-three{
+        height: 507px;
+    }
+    .section-four{
+        height: 560px;
+    }
+
+
+    .section-one-div, .section-two-div, .section-three-div{
+        flex-direction: column;
+        gap: 27px;
+        padding: 40px 25px;
+        width: 428px;
+    }
+    .section-two-div{
+        flex-direction: column-reverse;
+    }
+
+    .text-four > p{
+        width: 378px;
+    }
+
+    main{
+        width: 428px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    footer {
+        width: 100%;
+        height: 140px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) { 
+    body {
+        max-width: 1024px;
+    }
+
+    header {
+        width: 100vh;
+        height: 505px;
+    }
+
+    .header {
+        padding: 70px 50px;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .header > p {
+        line-height: 21.79px;
+        text-align: left;
+        width: 600px;
+        height: 132px;
+        word-wrap: break-word;
+    }
+
+    h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .btn-white, .btn-dark {
+        width: 600px;
+        height: 54px;
+    }
+
+    img[alt="Imagem ilustrativa"] {
+        width: 507px;
+        height: 338px;
+    }
+
+    img[alt="Imagem ilustrativa-Maior"] {
+        width: 507px;
+        height: 338px;
+    }
+
+    img[alt="Logo Com Nome"] {
+        width: 200px;
+        height: 56px;
+    }
+
+    .section-one {
+        width: 100%;
+        height: 573px;
+    }
+
+    .section-two, .section-three {
+        width: 100%;
+        height: 507px;
+    }
+
+    .section-four {
+        width: 100%;
+        height: 560px;
+    }
+
+    .section-one-div, .section-two-div, .section-three-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 27px;
+        padding: 40px 50px;
+        width: 600px;
+    }
+
+    .section-two-div {
+        flex-direction: column-reverse;
+    }
+
+    .text-four > p {
+        width: 600px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    footer {
+        width: 100%;
+        height: 140px;
+    }
+}
+
+
+
